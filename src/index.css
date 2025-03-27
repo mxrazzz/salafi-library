@@ -1,0 +1,53 @@
+/* Import fonts first */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+/* Then import Tailwind */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@font-face {
+  font-family: 'Amiri';
+  src: url('/fonts/Amiri-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  /* Navy theme */
+  --color-primary-50: #E6EBF4;
+  --color-primary-100: #CCD6E9;
+  --color-primary-200: #99ADD3;
+  --color-primary-300: #6684BD;
+  --color-primary-400: #335BA7;
+  --color-primary-500: #003366;
+  --color-primary-600: #002952;
+  --color-primary-700: #001F3E;
+  --color-primary-800: #001429;
+  --color-primary-900: #000A15;
+  
+  /* Golden accent */
+  --color-secondary-50: #fefbf2;
+  --color-secondary-100: #fdf7e6;
+  --color-secondary-200: #faefcc;
+  --color-secondary-300: #f8e7b3;
+  --color-secondary-400: #f5df99;
+  --color-secondary-500: #F5D580;
+  --color-secondary-600: #c4ab66;
+  --color-secondary-700: #93804d;
+  --color-secondary-800: #625633;
+  --color-secondary-900: #312b1a;
+  
+  /* Cream background */
+  --color-cream-50: #FFFEFA;
+  --color-cream-100: #FFFDF5;
+  --color-cream-200: #FFFCEB;
+  --color-cream-300: #FFF8D1;
+  --color-cream-400: #FFF5BD;
+  --color-cream-500: #F5F0DC;
+  --color-cream-600: #E6E0CA;
+  --color-cream-700: #D7D0B8;
+  --color-cream-800: #C8C0A6;
+  --color-cream-900: #B9B194;
+}
